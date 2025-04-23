@@ -1,0 +1,15 @@
+$ mkdir gittest
+$ cd gittest
+$ touch comandos.txt Nome_e_mat.txt
+$ git init
+$ git config --local user.name Gabriel_Arcanjo
+$ git config --local user.email arcanjo.gabriel@academico.ifrn.edu.br
+$ git add Nome_e_mat.txt
+$ git commit -m "first commit"
+$ git branch -m main
+$ git remote add origin https://github.com/Gabriel-Arcanjo129/curso-git-embarcatech.git
+$ gh auth login
+$ git push -u origin main
+$ git add comandos.txt
+$ git commit -m "Lista de Comandos"
+$ git push -u origin main
